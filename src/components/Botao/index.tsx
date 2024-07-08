@@ -1,8 +1,12 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import style from "./Botao.module.scss";
 
-const Botao = () => {
-  return <button className={style.botao}>Botão</button>;
+type Props = {
+  children: ReactNode;
+};
+
+const Botao = ({ children }: Props) => {
+  return <button className={style.botao}>{children}</button>;
 };
 
 export default Botao;

@@ -13,7 +13,6 @@ const Formulario = () => {
           required
         />
       </div>
-
       <div className={style.inputContainer}>
         <label htmlFor="tempo">Tempo</label>
         <input
@@ -26,7 +25,7 @@ const Formulario = () => {
           required
         />
       </div>
-      <Botao />
+      <Botao>Adicionar</Botao>
     </form>
   );
 };

@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+# Alura Studies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Captura de tela 2024-07-26 111512](https://github.com/user-attachments/assets/83214fb6-a5b9-4727-8626-3094021e25bf)
 
-## Available Scripts
+## Índice
 
-In the project directory, you can run:
+- [Sobre](#sobre)
+- [Funcionalidades](#funcionalidades)
+- [Instalação](#instalação)
+- [Tecnologias](#tecnologias)
+- [Contribuição](#contribuição)
 
-### `npm start`
+## Sobre
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Esse projeto desenvolvido junto a Alura, foi meu início na tecnologia Typescript. Ele conta com uma lista de Tarefas e temporização dessa tarefa. Fornecendo uma produtividade na hora do seus estudos.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Funcionalidades
 
-### `npm test`
+- [x] Adicionar Nova Tarefa
+- [x] Delimitar o tempo dessa tarefa
+- [X] Crônometro regressivo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalação
 
-### `npm run build`
+### Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Liste os pré-requisitos necessários para instalar o projeto:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js
+- Git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Passo a passo
 
-### `npm run eject`
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/Sponchiatto/Studies-Alura.git
+    ```
+2. Entre no diretório do projeto:
+    ```bash
+    cd Studies-Alura
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+## Tecnologias
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Liste as principais tecnologias utilizadas no projeto:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Node.js](https://nodejs.org/)
+- [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Contribuição
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Se você deseja contribuir com o projeto, siga os passos abaixo:
 
-## Learn More
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/nome-da-feature`)
+3. Faça commit das suas alterações (`git commit -m 'Adiciona feature XYZ'`)
+4. Faça push para a branch (`git push origin feature/nome-da-feature`)
+5. Abra um Pull Request
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
